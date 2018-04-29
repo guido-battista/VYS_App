@@ -57,3 +57,4 @@ C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.Android\obj\D
 C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.Android\obj\Debug\res\drawable\refresh.png

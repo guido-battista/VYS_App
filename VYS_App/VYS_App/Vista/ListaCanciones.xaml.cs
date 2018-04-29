@@ -89,7 +89,11 @@ namespace VYS_App.Vista
 
         async void SonandoClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Cancion Sonando", "Propuesta Indecente - Romeo Santos", "OK");
+            String evento = "1";
+            ApiRest.RestClient client = new ApiRest.RestClient();
+            var resultadoCanciones = await client.Get<ApiRest.CancionResult>(url + "/sonando?idEvento=" + evento);
+            //await DisplayAlert("Cancion Sonando", "Propuesta Indecente - Romeo Santos", "OK");
+            await DisplayAlert("Cancion Sonando", resultadoCanciones.titulo, "OK");
         }
 
         void CambiarEventoClicked(object sender, EventArgs e)

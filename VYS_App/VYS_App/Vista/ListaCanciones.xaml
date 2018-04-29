@@ -4,7 +4,7 @@
              BarBackgroundColor="DarkGreen"
              x:Class="VYS_App.Vista.ListaCanciones">
     <TabbedPage.ToolbarItems>
-        <!--ToolbarItem Name="Sonando" Order="Primary" Text="Sonando" Priority="0" Clicked="SonandoClicked" /-->
+        <ToolbarItem Name="Sonando" Order="Primary" Text="Sonando" Priority="0" Clicked="SonandoClicked"/>
         <ToolbarItem Name="Refresh" Order="Primary" Icon="Refresh.png" Text="Refresh" Priority="1" Clicked="RefreshClicked"/>
         <ToolbarItem Name="CambiarEvento" Order="Secondary" Text="Cambiar Evento" Priority="0" Clicked="CambiarEventoClicked" />
         <ToolbarItem Name="AcercaDe" Order="Secondary" Text="Acerca de..." Priority="1" />
