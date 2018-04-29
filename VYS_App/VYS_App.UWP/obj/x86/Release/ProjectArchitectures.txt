@@ -1,0 +1,2 @@
+C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.UWP\VYS_App.UWP.csproj;x86
+C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App\VYS_App.csproj;neutral

@@ -1,0 +1,3 @@
+VYS_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  VYS_App.MainPage.xaml
+  VYS_App.App.xaml

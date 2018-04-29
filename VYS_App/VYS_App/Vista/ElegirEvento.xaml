@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VYS_App.Vista.ElegirEvento"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ingrese Datos del Evento"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontAttributes="Bold" FontSize="Large"/>
+            <Entry x:Name="IdEvento"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="Large" Keyboard="Numeric" Placeholder="Id Evento" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="CodigoEvento" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="Large" Placeholder="Codigo Evento" HorizontalTextAlignment="Center"/>
+            <!--
+            <Grid   VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" >
+                <Label Text="ID de Evento" Grid.Row="0" Grid.Column="0" FontAttributes="Bold"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="DarkGreen" FontSize="Large"/>
+                <Entry x:Name="IdEvento" Grid.Row="0" Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" FontSize="Large" Keyboard="Numeric" Placeholder="Id Evento"/>
+                <Label Text="Codigo de Evento" Grid.Row="1" Grid.Column="0" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="DarkGreen" FontSize="Large"/>
+                <Entry x:Name="CodigoEvento" Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" FontSize="Large" Placeholder="Codigo Evento"/>
+            </Grid>
+            -->
+            <Button x:Name="btnIngresar"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" FontAttributes="Bold" BackgroundColor="DarkGreen" TextColor="White"
+                    Text="Ingresar"
+                    Clicked="IngresarClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

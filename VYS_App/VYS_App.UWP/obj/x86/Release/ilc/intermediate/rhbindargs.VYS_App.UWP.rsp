@@ -1,0 +1,15 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativelink:C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\x86\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.UWP\obj\x86\Release\ilc\intermediate\MDIL\VYS_App.UWP.mdilexe"
+"/i:C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.UWP\obj\x86\Release\ilc\intermediate\MDIL\"
+/out:"C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.UWP\obj\x86\Release\ilc\intermediate\Native\VYS_App.UWP.exe"
+"/res:C:\Users\Guido\Desktop\Guido\Proyectos\VYS\VYS_App\VYS_App\VYS_App.UWP\obj\x86\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\x86\ret\MDIL"
+/shimexe
+/classlib:SharedLibrary
